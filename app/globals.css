@@ -1,0 +1,19 @@
+:root {
+  --dark: #112943;
+  --light: #f0f4f8;
+  --light1: #bccbdb;
+  --light2: #829ab1;
+  --darkLow: #486581;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--light);
+}
+  
