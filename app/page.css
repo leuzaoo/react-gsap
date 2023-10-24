@@ -1,11 +1,11 @@
-.container{
+.container {
   max-width: 1440px;
   width: 100%;
   margin: 0 auto;
   padding: 0 8px;
 }
 
-.area-model{
+.area-model {
   height: 500px;
   width: 100%;
   background: #b4b4b4;
@@ -13,7 +13,7 @@
 }
 
 /* Area Relogio */
-.items{
+.items {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,21 +24,22 @@
   padding: 24px;
 }
 
-.items-content{
+.items-content {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.relogio{
+.relogio {
   width: 100%;
   max-width: 400px;
+  transform: translateX(-700px) rotate(180deg);
+  opacity: 0;
 }
 
-
 /* Area Modelos relogios */
-.models-container{
+.models-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -47,7 +48,7 @@
   padding: 24px;
 }
 
-.models-content{
+.models-content {
   margin: 36px 0;
   width: 100%;
   display: flex;
@@ -69,16 +70,20 @@
   margin-bottom: 16px;
 }
 
-
-.models-tag{
-  color: #DA5404;
+.models-tag {
+  color: #da5404;
 }
 
-.models-title{
+.title {
+  transform: translateX(-700px);
+  opacity: 0;
+}
+
+.models-title {
   font-size: 24px;
 }
 
 /* TESTE AREA */
-.teste-area{
+.teste-area {
   margin: 400px 0;
 }
