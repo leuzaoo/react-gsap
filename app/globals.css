@@ -1,19 +1,28 @@
-:root {
-  --dark: #112943;
-  --light: #f0f4f8;
-  --light1: #bccbdb;
-  --light2: #829ab1;
-  --darkLow: #486581;
-}
-
-* {
-  margin: 0;
+*{
   padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
 body {
-  background-color: var(--dark);
-  color: var(--light);
+  font-family: sans-serif;
+  width: 100%;
+  background-color: #FFF;
+  overflow-x: hidden;
 }
-  
+
+svg {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.border {
+  border: 1px solid red;
+}
